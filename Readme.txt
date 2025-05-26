@@ -41,39 +41,25 @@ Edit
        Prediction Results → Frontend
 ⚙️ How to Run Locally
 1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/HimeshSaini03/STOCKX.git
-cd STOCKX
+       git clone https://github.com/HimeshSaini03/STOCKX.git
+       cd STOCKX
 2. Setup Backend
-bash
-Copy
-Edit
-cd backend
-npm install
+       cd backend
+       npm install
 # Create a .env file with your MongoDB URI, JWT_SECRET, and API keys (Finnhub, Alpha Vantage)
-npm start
+       npm start
 3. Setup Frontend
-Open a new terminal:
-
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
+       Open a new terminal:
+       cd frontend
+       npm install
+       npm start
 The frontend will run at http://localhost:3000
 
 4. Run AI/ML model (Python)
-Make sure you have Python and required packages installed:
-
-bash
-Copy
-Edit
-cd ml_model
-pip install -r requirements.txt
-python app.py
+       Make sure you have Python and required packages installed:
+       cd ml_model
+       pip install -r requirements.txt
+       python app.py
 This script fetches historical data and trains the LSTM model for predictions.
 
 +--------------------+      +--------------------+      +-------------------+
